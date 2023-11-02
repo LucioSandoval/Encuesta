@@ -1,0 +1,17 @@
+﻿@model Survey
+@{
+    ViewData["Title"] = "Resultado";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h2>Survey Information:</h2>
+    <ul>
+        <li><strong>Nombre:</strong> @Model.Nombre</li>
+        <li><strong>Apellido:</strong> @Model.Apellido</li>
+        <li><strong>Ubicacion:</strong> @Model.Ubicacion</li>
+        <li><strong>Lenguaje Favorito:</strong> @Model.Lenguaje</li>
+        <li><strong>Descripción:</strong> @Model.Descripcion</li>
+    </ul>
+</div>
